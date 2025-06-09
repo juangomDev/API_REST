@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "Expression": "I DON'T UNDERSTAND THAT",
+        "meaning": "NO ENTIENDO ESO"
+    },
+    {
+        "id": 2,
+        "Expression": "REPEAT, PLEASE",
+        "meaning": "REPITA. POR FAVOR"
+    },
+    {
+        "id": 3,
+        "Expression": "SPEAK SLOWER. PLEASE",
+        "meaning": "HABLE LENTAMENTE, POR FAVOR"
+    },
+    {
+        "id": 4,
+        "Expression": "WHAT'S THE MEANING OF --- ?",
+        "meaning": "CUAL SIGNIFICA --- ?"
+    },
+    {
+        "id": 5,
+        "Expression": "HOW DO YOU SAY --- ?",
+        "meaning": "COMO SE DICE --- ? "
+    },
+    {
+        "id": 6,
+        "Expression": "HOW DO YOU SPELL --- ?",
+        "meaning": "COMO SE DELETREA --- ?"
+    },
+    {
+        "id": 7,
+        "Expression": "HOW DO YOU PRONOUNCE IT --- ?",
+        "meaning": "COMO SE PRONUNCIA --- ?"
+    },
+    {
+        "id": 8,
+        "Expression": "WHAT'S THE DIFFERENCE BETWEEN --- AND --- ?",
+        "meaning": "CUAL ES LA DIFERENCIA ENTRE --- Y --- ?"
+    },
+    {
+        "id": 9,
+        "Expression": "NO PROBLEM, NO QUESTION",
+        "meaning": "NO HAY PROBLEMA, NO HAY PREGUNTA"
+    },
+    {
+        "id": 10,
+        "Expression": "I HAVE A QUESTION",
+        "meaning": "TENGO UNA PREGUNTA"
+    },
+    {
+        "id": 11,
+        "Expression": "I DON'T KNOW",
+        "meaning": "NO SE"
+    },
+    {
+        "id": 12,
+        "Expression": "WAIT A MINUTE, PLEASE",
+        "meaning": "ESPERE UN MINUTO, POR FAVOR"
+    },
+    {
+        "id": 13,
+        "Expression": "I'M READY",
+        "meaning": "ESTOY LISTO"
+    },
+    {
+        "id": 14,
+        "Expression": "MAY I GO OUT ?",
+        "meaning": "PUEDO SALIR"
+    },
+    {
+        "id": 15,
+        "Expression": "MAY I COME IN ?",
+        "meaning": "PUEDO ENTRAR"
+    },
+    {
+        "id": 16,
+        "Expression": "MAY I SPEAK IN SPANISH ?",
+        "meaning": "PUEDO HABLAR EN ESPAÑOL"
+    },
+    {
+        "id": 17,
+        "Expression": "I DON'T KNOW HOW TO SAY THAT IN ENGLISH",
+        "meaning": "NO SE COMO DECIRLO EN INGLES"
+    },
+    {
+        "id": 18,
+        "Expression": "EXCUSE ME, TEACHER",
+        "meaning": "PERMISO PROFESOR(A)"
+    },
+    {
+        "id": 19,
+        "Expression": "I NEED A PENCIL SHARPENER",
+        "meaning": "NECESITO UN SACAPUNTAS"
+    },
+    {
+        "id": 20,
+        "Expression": "WHAT PAGE ARE WE ON ?",
+        "meaning": "EN QUE PAGINA ESTAMOS ?"
+    },
+    {
+        "id": 21,
+        "Expression": "WHICH EXERCISE IS THAT ?",
+        "meaning": "CUAL EJERCICIO ES ESE ?"
+    },
+    {
+        "id": 22,
+        "Expression": "SEE YOU, TEACHER",
+        "meaning": "HASTA LUEGO, PROFESOR(A)"
+    },
+    {
+        "id": 23,
+        "Expression": "TEACHER, COME OVER",
+        "meaning": "PROFESOR(A), VENGA"
+    },
+    {
+        "id": 24,
+        "Expression": "DON'T ERASE THE BOARD, PLEASE",
+        "meaning": "NO BORRÉ EL PIZARRON, POR FAVOR"
+    },
+    {
+        "id": 25,
+        "Expression": "THAT'S DIFFICULT",
+        "meaning": "ESO ES DIFICIL"
+    },
+    {
+        "id": 26,
+        "Expression": "THAT'S EASY",
+        "meaning": "ESO ES FÁCIL"
+    }
+]
