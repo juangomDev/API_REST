@@ -1,6 +1,6 @@
 import * as fs from 'fs/promises';
 import path from 'path';
-import { JsonReaderError } from './errorHandler';
+import { JsonReaderError } from './error/errorHandler';
 
 
 export class JsonReader<T = unknown> {

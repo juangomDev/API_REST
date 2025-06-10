@@ -1,19 +1,33 @@
-
 import { Request, Response, NextFunction } from 'express';
-import { ApiError } from '../utils/errorHandler';
+import { ApiError } from '../utils/error/errorHandler';
+import logger from '../utils/logger';
 
 export const globalErrorHandler = (
-  err: Error | ApiError, 
+  err: Error | ApiError,
   req: Request,
   res: Response,
   next: NextFunction
 ) => {
-  const statusCode = err instanceof ApiError ? err.statusCode : 500;
-  const message = err.message || 'Ha ocurrido un error inesperado en el servidor.';
+  // Log del error
+  logger.error(`${err.name}: ${err.message}`, {
+    url: req.originalUrl,
+    method: req.method,
+    stack: err.stack
+  });
 
-  res.status(statusCode).json({
+  // Manejo de errores conocidos
+  if (err instanceof ApiError) {
+    return res.status(err.statusCode).json({
+      status: 'error',
+      message: err.message,
+      ...(process.env.NODE_ENV === 'development' && { stack: err.stack })
+    });
+  }
+
+  // Error inesperado
+  res.status(500).json({
     status: 'error',
-    message: message,
-    ...(process.env.NODE_ENV === 'development' && { stack: err.stack }),
+    message: 'Something went wrong!',
+    ...(process.env.NODE_ENV === 'development' && { stack: err.stack })
   });
 };

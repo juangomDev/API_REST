@@ -1,17 +1,18 @@
 import { Router } from 'express';
 import { AllPhrase, PhraseById, AllWords, WordsById, AddPhrase, UpdatePhrase, DeletePhrase } from '../controllers/controller';
 
-const router = Router();
+const phrasesRouter = Router();
 
-router.get('/', AllPhrase)
-router.get('/:id', PhraseById)
-router.post('/', AddPhrase)
-router.put('/:id', UpdatePhrase)
-router.delete('/:id', DeletePhrase)
+phrasesRouter.route('/')
+    .get(AllPhrase)
+    .post(AddPhrase)
 
+phrasesRouter.route('/:id')
+    .get(PhraseById)
+    .put(UpdatePhrase)
+    .delete(DeletePhrase)
 
+phrasesRouter.get('/all-words', AllWords)
+phrasesRouter.get('/word', WordsById)
 
-router.get('/all-words', AllWords)
-router.get('/word', WordsById)
-
-export default router
+export default phrasesRouter 

@@ -1,6 +1,6 @@
 import { Phrase } from '../models/model'
 import { expressionsRepository } from '../repository/expressions.repository';
-import { NotFoundError } from '../utils/errorHandler'
+import { NotFoundError } from '../utils/error/errorHandler'
 
 export class ExpressionsService {
     private repository: expressionsRepository;
